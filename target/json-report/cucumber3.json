@@ -1,0 +1,411 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-30T16:10:40.225Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "searching the worlds capital",
+        "description": "",
+        "id": "search-for-multiple-data;searching-the-worlds-capital;capitals;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5607000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15119000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4885000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the result has \"london\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"london\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3665000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the application",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_closes_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-30T16:11:09.587Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "searching the worlds capital",
+        "description": "",
+        "id": "search-for-multiple-data;searching-the-worlds-capital;capitals;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4018000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7423000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4716000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the result has \"paris\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"paris\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5990000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the application",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_closes_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-30T16:11:31.808Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "searching the worlds capital",
+        "description": "",
+        "id": "search-for-multiple-data;searching-the-worlds-capital;capitals;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2643000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6538000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2631000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for \"vienna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vienna\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the result has \"vienna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vienna\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1181000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the application",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_closes_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-30T16:11:44.844Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "searching the worlds capital",
+        "description": "",
+        "id": "search-for-multiple-data;searching-the-worlds-capital;capitals;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2291000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1788000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the google page",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6177000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user search for \"madrid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"madrid\"",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the result has \"madrid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"madrid\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.verify_the_result_has(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1026000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user closes the application",
+            "match": {
+              "location": "StepDefinitions.Day17_GoogleSearchStepDefinitions.user_closes_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "search for multiple data",
+    "description": "",
+    "id": "search-for-multiple-data",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Day19_01_SingleScenarioWarmup.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

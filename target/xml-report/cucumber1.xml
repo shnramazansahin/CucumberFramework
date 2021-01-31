@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="51.954">
+<testcase classname="user should add data" name="data tables 1" time="24.14">
+<system-out><![CDATA[Given user is on the datatable page.........................................passed
+And user clicks on the  new button..........................................passed
+When user enters the firstname "john".......................................passed
+When user enters the lastname "annn"........................................passed
+When user enters the position "teacher".....................................passed
+When user enters the office "newyork".......................................passed
+When user enters the extention "234"........................................passed
+When user enters the startdate "2021-01-27".................................passed
+When user enters the salary "34534534"......................................passed
+And user clicks on the create button........................................passed
+And user rearch the firstname "john"........................................passed
+Then verify the name field contains the firstname "john"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="user should add data" name="data tables 1 2" time="8.901">
+<system-out><![CDATA[Given user is on the datatable page.........................................passed
+And user clicks on the  new button..........................................passed
+When user enters the firstname "ali"........................................passed
+When user enters the lastname "safa"........................................passed
+When user enters the position "sdet"........................................passed
+When user enters the office "minnesota".....................................passed
+When user enters the extention "23".........................................passed
+When user enters the startdate "2021-01-29".................................passed
+When user enters the salary "7890"..........................................passed
+And user clicks on the create button........................................passed
+And user rearch the firstname "ali".........................................passed
+Then verify the name field contains the firstname "ali".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="user should add data" name="data tables 1 3" time="6.002">
+<system-out><![CDATA[Given user is on the datatable page.........................................passed
+And user clicks on the  new button..........................................passed
+When user enters the firstname "safiye".....................................passed
+When user enters the lastname "buyukbay"....................................passed
+When user enters the position "aktar".......................................passed
+When user enters the office "manhattan".....................................passed
+When user enters the extention "435"........................................passed
+When user enters the startdate "2021-03-20".................................passed
+When user enters the salary "120000"........................................passed
+And user clicks on the create button........................................passed
+And user rearch the firstname "safiye"......................................passed
+Then verify the name field contains the firstname "safiye"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="user should add data" name="data tables 1 4" time="5.83">
+<system-out><![CDATA[Given user is on the datatable page.........................................passed
+And user clicks on the  new button..........................................passed
+When user enters the firstname "badsfb".....................................passed
+When user enters the lastname "bdfb"........................................passed
+When user enters the position "sbdnn".......................................passed
+When user enters the office "ndghm".........................................passed
+When user enters the extention "657"........................................passed
+When user enters the startdate "2021-03-20".................................passed
+When user enters the salary "56474567"......................................passed
+And user clicks on the create button........................................passed
+And user rearch the firstname "badsfb"......................................passed
+Then verify the name field contains the firstname "badsfb"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="user should add data" name="data tables 1 5" time="5.74">
+<system-out><![CDATA[Given user is on the datatable page.........................................passed
+And user clicks on the  new button..........................................passed
+When user enters the firstname "Sam"........................................passed
+When user enters the lastname "waltom"......................................passed
+When user enters the position "boss"........................................passed
+When user enters the office "benton"........................................passed
+When user enters the extention "788"........................................passed
+When user enters the startdate "2021-03-20".................................passed
+When user enters the salary "9000000".......................................passed
+And user clicks on the create button........................................passed
+And user rearch the firstname "Sam".........................................passed
+Then verify the name field contains the firstname "Sam".....................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -20,7 +20,7 @@ Feature: user should add data
   |firstname|lastname|position|office |extention|startdate  |salary  |
   |john     |annn    |teacher |newyork|234      |2021-01-27 |34534534|
   |ali      |safa    | sdet   |minnesota|23     | 2021-01-29|7890    |
-  |safiye   |buyukbay|aktar  |manhattan|435    |2021-03-20 |120000   |
+  |safiye   |buyukbay|aktar   |manhattan|435    |2021-03-20 |120000  |
   |badsfb   |bdfb    |sbdnn   |ndghm  |657      |2021-03-20 |56474567|
   |Sam      |waltom  |boss    |benton |788      |2021-03-20 |9000000 |
 

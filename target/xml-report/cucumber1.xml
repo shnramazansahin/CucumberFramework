@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="51.954">
-<testcase classname="user should add data" name="data tables 1" time="24.14">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="67.227">
+<testcase classname="user should add data" name="data tables 1" time="45.054">
 <system-out><![CDATA[Given user is on the datatable page.........................................passed
 And user clicks on the  new button..........................................passed
 When user enters the firstname "john".......................................passed
@@ -15,7 +15,7 @@ And user rearch the firstname "john"........................................pass
 Then verify the name field contains the firstname "john"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user should add data" name="data tables 1 2" time="8.901">
+<testcase classname="user should add data" name="data tables 1 2" time="5.234">
 <system-out><![CDATA[Given user is on the datatable page.........................................passed
 And user clicks on the  new button..........................................passed
 When user enters the firstname "ali"........................................passed
@@ -30,7 +30,7 @@ And user rearch the firstname "ali".........................................pass
 Then verify the name field contains the firstname "ali".....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user should add data" name="data tables 1 3" time="6.002">
+<testcase classname="user should add data" name="data tables 1 3" time="5.588">
 <system-out><![CDATA[Given user is on the datatable page.........................................passed
 And user clicks on the  new button..........................................passed
 When user enters the firstname "safiye".....................................passed
@@ -45,7 +45,7 @@ And user rearch the firstname "safiye"......................................pass
 Then verify the name field contains the firstname "safiye"..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user should add data" name="data tables 1 4" time="5.83">
+<testcase classname="user should add data" name="data tables 1 4" time="4.533">
 <system-out><![CDATA[Given user is on the datatable page.........................................passed
 And user clicks on the  new button..........................................passed
 When user enters the firstname "badsfb".....................................passed
@@ -60,7 +60,7 @@ And user rearch the firstname "badsfb"......................................pass
 Then verify the name field contains the firstname "badsfb"..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user should add data" name="data tables 1 5" time="5.74">
+<testcase classname="user should add data" name="data tables 1 5" time="6.211">
 <system-out><![CDATA[Given user is on the datatable page.........................................passed
 And user clicks on the  new button..........................................passed
 When user enters the firstname "Sam"........................................passed

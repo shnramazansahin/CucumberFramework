@@ -13,7 +13,6 @@ public class CyrstalKeyLoginPage {
     }
     @FindBy(id="UserName")
     public WebElement userName;
-
     @FindBy(id="Password")
     public WebElement password;
     @FindBy(id="btnSubmit")

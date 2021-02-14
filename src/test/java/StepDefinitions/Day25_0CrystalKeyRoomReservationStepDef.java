@@ -31,7 +31,7 @@ public class Day25_0CrystalKeyRoomReservationStepDef {
     @Given("user enters username and password")
     public void user_enters_username_and_password(DataTable credentials) {
        // Data Table
-       List<String>loginData = credentials.row(0); // getting the first row data as list of string
+       List<String>loginData = credentials.row(0); // getting the first index of the  row data as list of string
        loginpage.userName.sendKeys(loginData.get(0)); // getting the first colum data from feature file
        loginpage.password.sendKeys(loginData.get(1));// second data
     }

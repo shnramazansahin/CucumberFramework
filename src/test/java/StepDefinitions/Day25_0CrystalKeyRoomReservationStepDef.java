@@ -20,7 +20,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-public class Day25_CrystalKeyRoomReservationStepDef {
+public class Day25_0CrystalKeyRoomReservationStepDef {
     CyrstalKeyLoginPage loginpage= new CyrstalKeyLoginPage();
     @Given("user is on the log in page")
     public void user_is_on_the_log_in_page() {

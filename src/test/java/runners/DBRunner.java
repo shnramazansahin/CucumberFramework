@@ -6,24 +6,22 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {      "html:target/default-cucumber-reports",
+//      html: type of report, target: folder name, folder under target:default-cucumber-reports
+        plugin = {
+                "html:target/default-cucumber-reports",
                 "json:target/json-report/cucumber.json",
                 "junit:target/xml-report/cucumber.xml"
-
-
-
         },
-        // path of the feature folder
+//        Path of features folder
         features = "src/test/resources/features",
-        // path of the StepDefinitions folder
+//        Path of step definitions folder
         glue = "database_stepdefinitions",
-        tags = "@dbread",
-        //run the feature file without browser to check/generate the step definition.Set it back to false after u r done
+//        run only tagged scenarios in the features folder
+        tags = "@dbcreate1",
+//      run the feature without browser.
         dryRun = false
 
-
 )
-
 public class DBRunner {
 
 }
